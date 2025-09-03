@@ -4,7 +4,7 @@
 1、访问网易云音乐web端，登录自己的账号
 
 2、按F12，找到“网络”->“music.163.com”文件->“标头”->Cookie
-<img width="945" height="517" alt="image" src="https://github.com/user-attachments/assets/df6d277e-3fc7-4e15-8f7a-4c92b6dcac6e" />
+<img width="918" height="529" alt="image" src="https://github.com/user-attachments/assets/ca0f9e11-c31b-47f3-a3c4-31ba26896cab" />
 
 3、将Cookie的值全部复制，并填写在fetch163Lyrics.py里的Cookie值
 ```
