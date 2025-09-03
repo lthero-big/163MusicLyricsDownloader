@@ -1,5 +1,18 @@
 # 网易云音乐歌词批量下载器
 
+# 配置方式
+1、访问网易云音乐web端，登录自己的账号
+
+2、按F12，找到“网络”->“music.163.com”文件->“标头”->Cookie
+<img width="945" height="517" alt="image" src="https://github.com/user-attachments/assets/df6d277e-3fc7-4e15-8f7a-4c92b6dcac6e" />
+
+3、将Cookie的值全部复制，并填写在fetch163Lyrics.py里的Cookie值
+```
+"Cookie": "os=pc; appver=2.9.7;",
+```
+将`os=pc; appver=2.9.7;`替换成复制的Cookie内容，保存文件即可
+
+
 # 使用方式
 
 ## 方式A：一次性混合输入（ID、URL、或“歌名 - 歌手”）
