@@ -4,7 +4,7 @@
 
 ## 方式A：一次性混合输入（ID、URL、或“歌名 - 歌手”）
 ```
-python fetch_163_lyrics.py \
+python fetch163Lyrics.py \
   --inputs "208902,https://music.163.com/#/song?id=1330348068,那些花儿 - 朴树, 体面-于文文"
 ```
 
@@ -20,7 +20,7 @@ python fetch_163_lyrics.py \
 > 体面-于文文
 
 ```
-python fetch_163_lyrics.py --input lines.txt
+python fetch163Lyrics.py --input lines.txt
 ```
 
 ## 可选参数
@@ -35,5 +35,5 @@ python fetch_163_lyrics.py --input lines.txt
 > --fuzzy  开启更宽松匹配（默认开）
 
 ```
-python fetch_163_lyrics.py --input lines.txt --outdir ./lyrics --search-limit 15 --fuzzy
+python fetch163Lyrics.py --input lines.txt --outdir ./lyrics --search-limit 15 --fuzzy
 ```
